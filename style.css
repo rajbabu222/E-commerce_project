@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar-brand img {
+    height: 40px; /* Adjust logo size */
+}
+
+.navbar {
+    margin-bottom: 0 !important; /* Remove any bottom margin from navbar */
+    padding-bottom: 0 !important;
+}
+
+.nav-link {
+    font-size: 1rem; /* Default font size for larger screens */
+    margin: 0 10px;
+}
+
+.navbar-toggler {
+    border: none; /* Optional: Remove border for a cleaner look */
+}
+
+.navbar-toggler-icon {
+    width: 2em;
+    height: 2em; /* Increase burger icon size */
+}
+
+
+.ecommerce-carousel-container {
+    margin: 0 !important; /* Reset any margins */
+    padding: 0 !important; /* Reset any paddings */
+    position: relative;
+    top: 0;
+}
+
+.carousel-item img {
+    object-fit: cover; /* Stretch image proportionally */
+    width: 100%; /* Full width */
+    height: calc(100vh - 56px); /* Adjust for navbar height (default 56px for Bootstrap) */
+    display: block;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%; /* Make it fill the height of the container */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem; /* Larger width */
+    height: 3rem; /* Larger height */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 50%; /* Make the icon a circle */
+    background-size: 50%; /* Adjust the size of the SVG icon */
+}
+
+
+/* Our services */
+
+.service-card {
+    margin-top: 10px;
+}
+
+.servises-section-heading {
+    color: #183b56;
+    font-family: "roboto";
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.services-section-description {
+    color: #616c7c;
+    font-family: "roboto";
+    font-size: 18px;
+}
+
+.services-card-image {
+    width: 80px;
+}
+
+.services-card-title {
+    color: #1f2933;
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.services-card-description {
+    color: #7b8794;
+    font-family: "roboto";
+    font-size: 14px;
+}
+/* Our Products */
+.products-section-heading {
+    color: #183b56;
+    font-family: "roboto";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.products-card {
+    height: 328px;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.headphones-bg-coontainer {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png");
+    background-size: cover;
+}
+
+.products-card-title {
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.products-card-description {
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 16px;
+}
+
+.products-card-modal-title {
+    color: #323f4b;
+    font-family: "roboto";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.products-card-modal-description {
+    color: #323f4b;
+    font-family: "roboto";
+    font-size: 16px;
+}
+
+.products-card-modal-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.products-card-modal-list-item {
+    color: #323f4b;
+    font-family: "roboto";
+    font-size: 32px;
+}
+
+.products-card-model-list-item-category {
+    font-weight: bold;
+}
+
+.laptop-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png");
+    background-size: cover;
+}
+
+.products-card-button {
+    color: #ff9f00;
+    background-color: #ffffff;
+    font-family: "roboto";
+    font-size: 16px;
+    width: 134px;
+    height: 48px;
+    border-width: 0;
+    border-radius: 100px;
+}
+
+/* Offers Section */
+.bg-container {
+    background-image: linear-gradient(to right, #f49541, #dd5d97);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.offers-section-heading {
+    color: #ad2167;
+    font-family: "Bree Serif";
+    font-size: 28px;
+}
+
+.offers-section-description {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.offer-in-percent {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.offers-section-discount-image {    
+    width: 250px;
+    margin: 10px;
+}
+
+
+
+/* Trending Blogs Section */
+.trending-blogs-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.trending-blogs-card-sub-title {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.trending-blogs-card-title {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.trending-blogs-card-description {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.trending-blogs-card-link {
+     color: #ff9f00;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Explore Section */
+.explore-section {
+    background-color: #f5f7fa;
+}
+
+.explore-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.explore-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.explore-card-image-container {
+    padding: 10px;
+}
+
+.explore-card-image {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.explore-card-title {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.explore-card-product-title {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.explore-card-link {
+    color: #ff9f00;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    /* General Font Sizes */
+    body {
+        font-size: 24px; /* Extra-large base font size */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 70rem; /* Larger font size for mobile */
+        margin: 50px 0; /* Add spacing between links */
+    }
+
+    .collapse.show {
+        background-color: #f8f9fa; /* Optional: Add background color to expanded menu */
+        padding: 10px; /* Add padding for better spacing */
+        border-radius: 5px; /* Optional: Add rounded corners */
+    }
+
+    .navbar-brand img {
+        height: 35px; /* Adjust logo size for smaller screens */
+    }
+
+    .navbar-toggler-icon {
+        width: 2.5em;
+        height: 2.5em; /* Further increase burger icon size */
+    }
+    .ecommerce-carousel-container,
+    .home-section {
+        height: auto; /* Adjust dynamically for smaller screens */
+        width: 100%;
+    }
+
+    .carousel-item img {
+        object-fit: contain;
+        width: 100%; /* Maintain full-width for smaller devices */
+        max-height: 100vh; /* Prevent vertical overflow */
+    }
+}
+/* Style for the scroll-to-top button */
+#scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#scrollToTop:hover {
+    background-color: #0056b3;
+}
